@@ -1,790 +1,244 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-```
 <meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description"
-    content="Hagilaash Muthuraj - Software Development Engineer and Backend Developer specializing in PHP, Symfony, Laravel, PostgreSQL and Healthcare IT.">
-
-<title>Hagilaash Muthuraj | Software Development Engineer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hagilaash Muthuraj | PHP Backend Developer</title>
+<meta name="description" content="Hagilaash Muthuraj, PHP Backend Developer in Bengaluru with 2.8 years in Healthcare IT and ERP. Symfony, Laravel, PostgreSQL, REST APIs, HL7 integrations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
 <link rel="stylesheet" href="style.css">
-```
-
 </head>
-
 <body>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to content</a>
 
-```
-<!-- ==================================================
-     HEADER
-=================================================== -->
-
-<header>
-
-    <h1>Hagilaash Muthuraj</h1>
-
-    <p>Software Development Engineer</p>
-
-    <nav>
-
-        <a href="#home">Home</a>
-        |
-        <a href="#about">About</a>
-        |
-        <a href="#experience">Experience</a>
-        |
-        <a href="#skills">Skills</a>
-        |
-        <a href="#projects">Projects</a>
-        |
-        <a href="#achievements">Achievements</a>
-        |
-        <a href="#education">Education</a>
-        |
-        <a href="#contact">Contact</a>
-
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="Hagilaash Muthuraj, home">HM</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="nav" aria-label="Primary">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#education">Education</a><a href="#contact">Contact</a>
     </nav>
-
+  </div>
 </header>
 
-
-<hr>
-
-
-<!-- ==================================================
-     HOME / HERO SECTION
-=================================================== -->
-
-<main>
-
-    <section id="home">
-
-        <p>Hello, I'm</p>
-
-        <h2>Hagilaash Muthuraj</h2>
-
-        <h3>Software Development Engineer</h3>
-
-        <p>
-            Backend Developer with 2.8 years of experience in
-            Healthcare IT and ERP.
-        </p>
-
-        <p>
-            PHP • Laravel • Symfony • PostgreSQL • REST APIs
-        </p>
-
-        <p>
-
-            <a href="#projects">
-                View My Projects
-            </a>
-
-            |
-
-            <a href="#contact">
-                Contact Me
-            </a>
-
-        </p>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         ABOUT / SUMMARY
-    =================================================== -->
-
-    <section id="about">
-
-        <h2>About Me</h2>
-
-        <p>
-            Backend Developer with 2.8 years of experience in
-            Healthcare IT and ERP, specializing in PHP, Laravel,
-            Symfony, PostgreSQL, SQL Server, Python, REST APIs,
-            and backend development.
-        </p>
-
-        <p>
-            Experienced in building high-availability,
-            compliance-driven HIS and EHR platforms,
-            healthcare integrations, secure API development,
-            third-party integrations, and background processing
-            using RabbitMQ.
-        </p>
-
-        <p>
-            Skilled in Entity Framework, CI/CD pipelines, SDLC
-            processes, performance optimization, production
-            support, API security, secure coding practices,
-            and VAPT remediation in Agile environments.
-        </p>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         EXPERIENCE
-    =================================================== -->
-
-    <section id="experience">
-
-        <h2>Professional Experience</h2>
-
-
-        <article>
-
-            <h3>Software Development Engineer</h3>
-
-            <h4>dWise Healthcare IT Solutions</h4>
-
-            <p>
-                Bengaluru, Karnataka
-            </p>
-
-            <p>
-                <strong>October 2021 - June 2024</strong>
-            </p>
-
-
-            <!-- Dubai Healthcare Integration -->
-
-            <h3>Dubai Healthcare Integration Project</h3>
-
-            <p>
-                <strong>Client:</strong> Aster Clinic, UAE
-            </p>
-
-            <ul>
-
-                <li>
-                    Architected REST APIs using HTTP methods
-                    GET, POST, PUT, PATCH and DELETE to integrate
-                    Aster Clinic systems with Dubai's unified
-                    healthcare platform.
-                </li>
-
-                <li>
-                    Orchestrated with NABIDH and Dubai Health
-                    Authority (DHA) to securely transfer patient
-                    medical records, ensuring compliance with
-                    DHA and NABIDH standards.
-                </li>
-
-                <li>
-                    Built APIs supporting healthcare
-                    interoperability and coding standards
-                    including CPT, ICD-10 and HL7.
-                </li>
-
-                <li>
-                    Implemented JWT-based authentication and
-                    multi-factor authentication (MFA) to secure
-                    APIs and protect sensitive patient and
-                    insurance data.
-                </li>
-
-                <li>
-                    Implemented background job processing and
-                    Linux daemon services using RabbitMQ to
-                    handle large data transfers and
-                    long-running healthcare workflows.
-                </li>
-
-                <li>
-                    Optimized backend workflows and API
-                    performance to support high-availability,
-                    compliance-driven healthcare integrations.
-                </li>
-
-            </ul>
-
-
-            <!-- Lifetrenz -->
-
-            <h3>Lifetrenz HIS &amp; EHR Platform</h3>
-
-            <p>
-                <strong>Region:</strong> India &amp; GCC
-            </p>
-
-            <ul>
-
-                <li>
-                    Designed, developed and enhanced end-to-end
-                    patient journey workflows across healthcare
-                    modules including Appointment Booking,
-                    Front Desk Management (FDM), OP Consultation,
-                    Radiology, Physiotherapy, Laboratory Sample
-                    Collection and Revenue Cycle Management (RCM).
-                </li>
-
-                <li>
-                    Enabled seamless patient movement across
-                    modules with real-time appointment status
-                    tracking, insurance handling, clinical
-                    reporting, lab result management and
-                    claims/billing workflows.
-                </li>
-
-                <li>
-                    Designed and engineered complex PostgreSQL
-                    functions, stored procedures and optimized
-                    queries using indexes and nested structures
-                    to support billing, appointment booking
-                    and claims processing.
-                </li>
-
-                <li>
-                    Led ETL development and data migration across
-                    heterogeneous databases, implementing detailed
-                    logging and rollback strategies.
-                </li>
-
-                <li>
-                    Integrated data from internal and third-party
-                    systems into a unified warehouse.
-                </li>
-
-                <li>
-                    Created and managed Linux-based daemon
-                    services and background workers to process
-                    long-running healthcare jobs, notifications
-                    and system integrations.
-                </li>
-
-                <li>
-                    Wrote unit and integration tests, performed
-                    peer code reviews and maintained automated
-                    CI/CD pipelines.
-                </li>
-
-                <li>
-                    Reduced production bugs by 47% within six
-                    months.
-                </li>
-
-                <li>
-                    Managed deployments across 20+ repositories
-                    using GitHub and CI/CD pipelines.
-                </li>
-
-                <li>
-                    Streamlined releases and reduced manual errors
-                    and code conflicts by 13%.
-                </li>
-
-                <li>
-                    Upgraded backend services from PHP 5.6 to
-                    PHP 8.0, improving system performance,
-                    stability and maintainability with minimal
-                    downtime.
-                </li>
-
-                <li>
-                    Engineered RabbitMQ-based background
-                    processing to offload heavy tasks,
-                    improving application responsiveness
-                    and server performance.
-                </li>
-
-            </ul>
-
-
-            <!-- Third Party APIs -->
-
-            <h3>Healthcare Third-Party API Integrations</h3>
-
-            <ul>
-
-                <li>
-                    Integrated multiple third-party healthcare
-                    APIs to retrieve and display patients'
-                    previous medical history, consultation
-                    records and clinical data.
-                </li>
-
-                <li>
-                    Implemented REST-based integrations with
-                    focus on API security, performance
-                    optimization and reliable healthcare
-                    data exchange.
-                </li>
-
-            </ul>
-
-        </article>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         TECHNICAL SKILLS
-    =================================================== -->
-
-    <section id="skills">
-
-        <h2>Technical Skills</h2>
-
-
-        <h3>Programming Languages</h3>
-
+<main id="main">
+<section id="home" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">PHP BACKEND DEVELOPER · BENGALURU, INDIA</p>
+      <h1>Building Reliable Backend Systems That Make a Difference.</h1>
+      <p class="lead">I'm Hagilaash Muthuraj, a PHP Developer with 2.8 years of experience in Healthcare IT and ERP, building secure APIs, data workflows, and healthcare integrations.</p>
+      <p class="stack">PHP · Symfony · Laravel · PostgreSQL · REST APIs</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">Explore My Projects</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+      <p class="social"><a href="https://www.linkedin.com/in/hagilaash" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="mailto:hagilaashjoshu@gmail.com">Email</a></p>
+    </div>
+    <aside class="card profile" aria-label="Profile summary">
+      <div class="avatar" aria-hidden="true">HM</div>
+      <h2>Hagilaash Muthuraj</h2>
+      <p class="muted">PHP Backend Developer</p>
+      <ul class="facts">
+        <li><strong>2.8 yrs</strong><span>Healthcare IT &amp; ERP experience</span></li>
+        <li><strong>20+</strong><span>Repositories worked across</span></li>
+        <li><strong>47%</strong><span>Reported reduction in production bugs in six months</span></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="wrap">
+    <h2 class="title reveal">About me</h2>
+    <div class="about reveal">
+      <div>
+        <p>I develop backend solutions for systems where security, accuracy, and reliability matter.</p>
+        <p>My experience spans healthcare information systems (HIS), electronic health records (EHR), REST API development, third-party integrations, and PostgreSQL data processing.</p>
+        <p>I've worked on healthcare interoperability for the UAE and end-to-end patient workflows across India and GCC.</p>
+        <p>I value clean code, useful testing, performance tuning, and practical collaboration throughout the software development lifecycle.</p>
+      </div>
+      <div class="areas">
+        <div class="card"><h3>Backend and API Engineering</h3><p>Secure REST APIs, authentication, and third-party integrations.</p></div>
+        <div class="card"><h3>Healthcare Interoperability</h3><p>HL7, ICD-10, and CPT exchange aligned with NABIDH and DHA.</p></div>
+        <div class="card"><h3>Database Engineering and Performance Optimization</h3><p>PostgreSQL functions, stored procedures, and tuned queries.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section alt">
+  <div class="wrap">
+    <h2 class="title reveal">Professional experience</h2>
+    <div class="job reveal">
+      <h3>PHP Developer · dWise Healthcare IT Solutions</h3>
+      <p class="muted">Bengaluru, Karnataka, India · October 2021 – June 2024</p>
+    </div>
+    <div class="timeline">
+      <details class="card reveal" open>
+        <summary>Dubai Healthcare Integration <small>Client: Aster Clinic, UAE</small></summary>
         <ul>
-
-            <li>PHP</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-
+          <li>Developed REST APIs using GET, POST, PUT, PATCH, and DELETE.</li>
+          <li>Integrated clinic systems with Dubai's unified healthcare platform.</li>
+          <li>Supported secure medical-record exchange aligned with NABIDH and Dubai Health Authority (DHA) requirements.</li>
+          <li>Worked with interoperability standards including HL7, ICD-10, and CPT.</li>
+          <li>Implemented JWT-based authentication and multi-factor authentication (MFA).</li>
+          <li>Implemented logging, monitoring, and exception handling.</li>
+          <li>Used RabbitMQ and Linux daemon services for background processing.</li>
+          <li>Optimized API performance and database interactions.</li>
         </ul>
-
-
-        <h3>Backend</h3>
-
+      </details>
+      <details class="card reveal">
+        <summary>Lifetrenz HIS &amp; EHR Platform <small>India and GCC</small></summary>
         <ul>
-
-            <li>PHP</li>
-            <li>Laravel</li>
-            <li>Symfony</li>
-            <li>Django</li>
-            <li>REST APIs</li>
-            <li>Backend Development</li>
-            <li>Secure API Development</li>
-            <li>Third-Party Integrations</li>
-            <li>Production Support</li>
-
+          <li>Developed and enhanced patient workflows across appointment booking, Front Desk Management (FDM), OP Consultation, radiology, physiotherapy, laboratory sample collection, and Revenue Cycle Management (RCM).</li>
+          <li>Worked with Laravel MVC, routing, controllers, middleware, authentication, validation, and Eloquent ORM.</li>
+          <li>Wrote unit and integration tests and performed peer code reviews.</li>
+          <li>Maintained automated CI/CD pipelines.</li>
+          <li>Contributed to a reported 47% reduction in production bugs within six months.</li>
+          <li>Managed deployments across 20+ repositories using GitHub and CI/CD.</li>
+          <li>Helped reduce manual release errors and code conflicts by 13%.</li>
+          <li>Upgraded backend services from PHP 5.6 to PHP 8.0 with minimal downtime.</li>
+          <li>Worked with PostgreSQL, GraphQL APIs, and background processing.</li>
         </ul>
-
-
-        <h3>Frontend</h3>
-
+      </details>
+      <details class="card reveal">
+        <summary>ETL Development and PostgreSQL <small>Data migration</small></summary>
         <ul>
-
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>AJAX</li>
-            <li>jQuery</li>
-            <li>Bootstrap</li>
-
+          <li>Led ETL development and data migration across heterogeneous databases.</li>
+          <li>Integrated data from internal and third-party systems.</li>
+          <li>Implemented data validation, logging, rollback strategies, and integrity checks.</li>
+          <li>Designed PostgreSQL structures, functions, stored procedures, and SQL queries.</li>
+          <li>Optimized queries using indexes, joins, and performance tuning.</li>
+          <li>Supported billing, appointments, claims, reporting, and healthcare workflows.</li>
+          <li>Troubleshot database and ETL issues by analyzing queries, logs, and data inconsistencies.</li>
         </ul>
-
-
-        <h3>Database</h3>
-
-        <ul>
-
-            <li>MySQL</li>
-            <li>PostgreSQL</li>
-            <li>SQL</li>
-            <li>NoSQL</li>
-            <li>Query Optimization</li>
-            <li>Performance Optimization</li>
-
-        </ul>
-
-
-        <h3>API &amp; Integration</h3>
-
-        <ul>
-
-            <li>REST APIs</li>
-            <li>SOAP</li>
-            <li>JSON</li>
-            <li>XML</li>
-            <li>Third-Party Integrations</li>
-            <li>API Security</li>
-
-        </ul>
-
-
-        <h3>Messaging &amp; Queues</h3>
-
-        <ul>
-
-            <li>RabbitMQ</li>
-
-        </ul>
-
-
-        <h3>Cloud &amp; DevOps</h3>
-
-        <ul>
-
-            <li>AWS EC2</li>
-            <li>AWS S3</li>
-            <li>CI/CD</li>
-            <li>Linux / Unix</li>
-            <li>Docker</li>
-            <li>NGINX</li>
-
-        </ul>
-
-
-        <h3>Methodologies</h3>
-
-        <ul>
-
-            <li>Agile Scrum</li>
-            <li>SDLC</li>
-            <li>System Design</li>
-            <li>Technical Documentation</li>
-            <li>Production Support</li>
-            <li>Application Security</li>
-
-        </ul>
-
-
-        <h3>Tools</h3>
-
-        <ul>
-
-            <li>GitHub</li>
-            <li>Postman</li>
-            <li>Fiddler</li>
-            <li>Power BI</li>
-            <li>Excel</li>
-
-        </ul>
-
-
-        <h3>Core Competencies</h3>
-
-        <ul>
-
-            <li>REST APIs</li>
-            <li>Healthcare Integrations</li>
-            <li>HL7</li>
-            <li>RabbitMQ</li>
-            <li>PostgreSQL</li>
-            <li>PHP</li>
-            <li>Laravel</li>
-            <li>Symfony</li>
-            <li>CI/CD</li>
-            <li>API Security</li>
-            <li>JWT Authentication</li>
-            <li>VAPT Remediation</li>
-
-        </ul>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         PROJECTS
-    =================================================== -->
-
-    <section id="projects">
-
-        <h2>Projects</h2>
-
-
-        <article>
-
-            <h3>Dubai Healthcare Integration Project</h3>
-
-            <p>
-                Healthcare integration project for Aster Clinic,
-                UAE, focused on secure interoperability with
-                Dubai's unified healthcare platform.
-            </p>
-
-            <p>
-                <strong>Technologies &amp; Concepts:</strong>
-            </p>
-
-            <ul>
-
-                <li>PHP</li>
-                <li>REST APIs</li>
-                <li>JWT Authentication</li>
-                <li>MFA</li>
-                <li>RabbitMQ</li>
-                <li>HL7</li>
-                <li>ICD-10</li>
-                <li>CPT</li>
-                <li>NABIDH</li>
-                <li>DHA</li>
-
-            </ul>
-
-        </article>
-
-
-        <article>
-
-            <h3>Lifetrenz HIS &amp; EHR Platform</h3>
-
-            <p>
-                Healthcare Information System and Electronic
-                Health Record platform supporting healthcare
-                workflows across India and GCC.
-            </p>
-
-            <p>
-                <strong>Modules:</strong>
-            </p>
-
-            <ul>
-
-                <li>Appointment Booking</li>
-                <li>Front Desk Management</li>
-                <li>OP Consultation</li>
-                <li>Radiology</li>
-                <li>Physiotherapy</li>
-                <li>Laboratory Sample Collection</li>
-                <li>Revenue Cycle Management</li>
-
-            </ul>
-
-        </article>
-
-
-        <article>
-
-            <h3>Healthcare Third-Party API Integrations</h3>
-
-            <p>
-                Integrated third-party healthcare APIs to retrieve
-                and display patient medical history, consultation
-                records and clinical data.
-            </p>
-
-            <p>
-                Focus areas included API security, performance
-                optimization and reliable healthcare data exchange.
-            </p>
-
-        </article>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         ACHIEVEMENTS
-    =================================================== -->
-
-    <section id="achievements">
-
-        <h2>Achievements</h2>
-
-        <ul>
-
-            <li>
-                Star Performer of the Quarter – 2023.
-            </li>
-
-            <li>
-                Built automation solutions reducing manual
-                operational effort by 50%.
-            </li>
-
-            <li>
-                Developed monitoring solutions improving
-                production issue response time by 30%.
-            </li>
-
-        </ul>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         EDUCATION
-    =================================================== -->
-
-    <section id="education">
-
-        <h2>Education</h2>
-
-
-        <article>
-
-            <h3>M.Sc. Software Systems</h3>
-
-            <p>
-                KG College of Arts and Science
-            </p>
-
-            <p>
-                Coimbatore, Tamil Nadu, India
-            </p>
-
-            <p>
-                <strong>2016 - 2021</strong>
-            </p>
-
-        </article>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         CERTIFICATIONS & ACTIVITIES
-    =================================================== -->
-
-    <section id="certifications">
-
-        <h2>Certifications &amp; Professional Activities</h2>
-
-
-        <article>
-
-            <h3>Data Science &amp; Machine Learning</h3>
-
-            <p>
-                Besant Technologies, Bengaluru
-            </p>
-
-            <p>
-                June 2025 - January 2026
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <h3>Guest Lecture on ERP</h3>
-
-            <p>
-                Conducted a guest lecture on ERP at
-                KG College of Arts &amp; Science.
-            </p>
-
-            <p>
-                May 2023
-            </p>
-
-        </article>
-
-
-        <article>
-
-            <h3>ThinkAHack</h3>
-
-            <p>
-                Participated in ThinkAHack, a 36-hour RPA
-                Hackathon by KGISL &amp; UiPath.
-            </p>
-
-        </article>
-
-    </section>
-
-
-    <hr>
-
-
-    <!-- ==================================================
-         CONTACT
-    =================================================== -->
-
-    <section id="contact">
-
-        <h2>Contact Me</h2>
-
-        <p>
-            I'm open to discussing software development
-            opportunities, backend development and interesting
-            technology projects.
-        </p>
-
-
-        <h3>Phone</h3>
-
-        <p>
-            <a href="tel:+919994863218">
-                +91 9994863218
-            </a>
-        </p>
-
-
-        <h3>Email</h3>
-
-        <p>
-            <a href="mailto:hagilaashjoshu@gmail.com">
-                hagilaashjoshu@gmail.com
-            </a>
-        </p>
-
-
-        <h3>LinkedIn</h3>
-
-        <p>
-
-            <a href="https://www.linkedin.com/in/hagilaash"
-                target="_blank"
-                rel="noopener noreferrer">
-
-                linkedin.com/in/hagilaash
-
-            </a>
-
-        </p>
-
-
-        <h3>Location</h3>
-
-        <p>
-            Bengaluru, Karnataka, India
-        </p>
-
-    </section>
-
+      </details>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="wrap">
+    <h2 class="title reveal">Technical skills</h2>
+    <div class="filters reveal" id="filters" role="group" aria-label="Filter skills by category">
+      <button class="chip-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip-btn" data-filter="lang" aria-pressed="false">Languages</button>
+      <button class="chip-btn" data-filter="backend" aria-pressed="false">Backend</button>
+      <button class="chip-btn" data-filter="frontend" aria-pressed="false">Frontend</button>
+      <button class="chip-btn" data-filter="db" aria-pressed="false">Database</button>
+      <button class="chip-btn" data-filter="api" aria-pressed="false">API</button>
+      <button class="chip-btn" data-filter="queue" aria-pressed="false">Messaging</button>
+      <button class="chip-btn" data-filter="devops" aria-pressed="false">Cloud &amp; DevOps</button>
+      <button class="chip-btn" data-filter="practice" aria-pressed="false">Practices</button>
+    </div>
+    <div class="skills-grid">
+      <div class="card skill reveal" data-cat="lang"><h3>Programming Languages</h3><ul class="tags"><li>PHP</li><li>Python</li><li>JavaScript</li><li>SQL</li></ul></div>
+      <div class="card skill reveal" data-cat="backend"><h3>Backend Development</h3><ul class="tags"><li>Laravel</li><li>Symfony</li><li>Django</li><li>MVC</li><li>OOP</li><li>Eloquent ORM</li><li>REST APIs</li><li>Secure API Development</li><li>Authentication</li><li>Authorization</li><li>Validation</li><li>Third-party Integrations</li><li>Debugging</li><li>Production Support</li></ul></div>
+      <div class="card skill reveal" data-cat="frontend"><h3>Frontend</h3><ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript ES6+</li><li>React</li><li>JSX</li><li>React Hooks</li><li>AJAX</li><li>jQuery</li><li>Bootstrap</li><li>Responsive Web Design</li></ul></div>
+      <div class="card skill reveal" data-cat="db"><h3>Database</h3><ul class="tags"><li>PostgreSQL</li><li>MySQL</li><li>SQL</li><li>NoSQL</li><li>Database Design</li><li>Stored Procedures</li><li>PostgreSQL Functions</li><li>Query Optimization</li><li>Indexing</li><li>Performance Tuning</li></ul></div>
+      <div class="card skill reveal" data-cat="api"><h3>API and Integration</h3><ul class="tags"><li>REST APIs</li><li>SOAP</li><li>JSON</li><li>XML</li><li>Third-party API Integration</li><li>API Security</li><li>JWT</li><li>Postman</li></ul></div>
+      <div class="card skill reveal" data-cat="queue"><h3>Messaging and Queues</h3><ul class="tags"><li>RabbitMQ</li><li>Background Jobs</li><li>Scheduled Jobs</li><li>Asynchronous Processing</li><li>Linux Daemons</li></ul></div>
+      <div class="card skill reveal" data-cat="devops"><h3>Cloud and DevOps</h3><ul class="tags"><li>AWS EC2</li><li>AWS S3</li><li>CI/CD</li><li>Linux/Unix</li><li>Docker</li><li>NGINX</li><li>GitHub</li></ul></div>
+      <div class="card skill reveal" data-cat="practice"><h3>Development Practices</h3><ul class="tags"><li>Unit Testing</li><li>Integration Testing</li><li>Code Review</li><li>Agile/Scrum</li><li>SDLC</li><li>Secure Coding</li><li>VAPT</li><li>Application Security</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section alt">
+  <div class="wrap">
+    <h2 class="title reveal">Projects</h2>
+    <p class="note reveal">These are professional projects delivered during my employment at dWise Healthcare IT Solutions. They are proprietary, so no public source code or demos are available.</p>
+    <div class="proj-grid">
+      <article class="card proj reveal">
+        <div class="art art1" aria-hidden="true"><i></i><i></i><i></i></div>
+        <h3>Dubai Healthcare Integration</h3>
+        <p>Secure healthcare integration for Aster Clinic, UAE, focused on secure interoperability and reliable data exchange.</p>
+        <ul class="tags"><li>REST APIs</li><li>JWT</li><li>MFA</li><li>RabbitMQ</li><li>HL7</li><li>ICD-10</li><li>CPT</li><li>NABIDH</li><li>DHA</li></ul>
+      </article>
+      <article class="card proj reveal">
+        <div class="art art2" aria-hidden="true"><i></i><i></i><i></i></div>
+        <h3>Lifetrenz HIS &amp; EHR Platform</h3>
+        <p>Healthcare workflows across India and GCC: Appointment Booking, FDM, OP Consultation, Radiology, Physiotherapy, Laboratory Sample Collection, and RCM.</p>
+        <ul class="tags"><li>Laravel</li><li>PHP</li><li>PostgreSQL</li><li>CI/CD</li></ul>
+      </article>
+      <article class="card proj reveal">
+        <div class="art art3" aria-hidden="true"><i></i><i></i><i></i></div>
+        <h3>ETL and PostgreSQL Optimization</h3>
+        <p>Data migration, validation, PostgreSQL functions, stored procedures, and query optimization, with a focus on data integrity and reliable healthcare reporting.</p>
+        <ul class="tags"><li>ETL</li><li>PostgreSQL</li><li>Stored Procedures</li><li>Query Optimization</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="achievements" class="section">
+  <div class="wrap">
+    <h2 class="title reveal">Achievements</h2>
+    <p class="note reveal">All figures below are self-reported from my resume and have not been independently verified.</p>
+    <div class="stats">
+      <div class="card stat reveal"><strong>2023</strong><span>Star Performer of the Quarter</span></div>
+      <div class="card stat reveal"><strong>50%</strong><span>Reduction in manual operational effort through automation solutions (reported)</span></div>
+      <div class="card stat reveal"><strong>30%</strong><span>Faster production issue response through monitoring solutions (reported)</span></div>
+      <div class="card stat reveal"><strong>47%</strong><span>Reduction in production bugs within six months (reported)</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section alt">
+  <div class="wrap">
+    <h2 class="title reveal">Education and certifications</h2>
+    <div class="edu-grid">
+      <div class="reveal">
+        <h3 class="sub">Education</h3>
+        <ol class="line">
+          <li><strong>M.Sc. Software Systems</strong><span>KG College of Arts and Science, Coimbatore, Tamil Nadu, India</span><em>2016–2021</em></li>
+          <li><strong>Higher Secondary (12th)</strong><span>SKV Matric Hr Sec School, Namakkal</span><em>2014–2016</em></li>
+          <li><strong>Secondary School (10th)</strong><span>Senthil Matric School, Dharmapuri</span><em>2012–2014</em></li>
+        </ol>
+      </div>
+      <div class="reveal">
+        <h3 class="sub">Certification</h3>
+        <ol class="line">
+          <li><strong>Data Science &amp; Machine Learning</strong><span>Besant Technologies, Bengaluru</span><em>June 2025 – January 2026</em></li>
+        </ol>
+        <h3 class="sub">Professional activities</h3>
+        <ol class="line">
+          <li><strong>Guest lecture on ERP</strong><span>KG College of Arts &amp; Science</span><em>May 2023</em></li>
+          <li><strong>ThinkAHack</strong><span>Participated in a 36-hour RPA Hackathon by KGISL</span></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="wrap reveal">
+    <h2 class="title">Let's Build Something Meaningful Together.</h2>
+    <ul class="contact-list">
+      <li><span>Phone</span><a href="tel:+919994863218">+91 9994863218</a></li>
+      <li><span>Email</span><a href="mailto:hagilaashjoshu@gmail.com">hagilaashjoshu@gmail.com</a></li>
+      <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/hagilaash" target="_blank" rel="noopener noreferrer">linkedin.com/in/hagilaash</a></li>
+      <li><span>Location</span>Bengaluru, Karnataka, India</li>
+    </ul>
+    <div class="btns">
+      <a class="btn primary" href="mailto:hagilaashjoshu@gmail.com">Email Me</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/hagilaash" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+    </div>
+  </div>
+</section>
 </main>
 
-
-<hr>
-
-
-<!-- ==================================================
-     FOOTER
-=================================================== -->
-
-<footer>
-
-    <p>
-        &copy; 2026 Hagilaash Muthuraj.
-        All rights reserved.
-    </p>
-
-    <p>
-        Software Development Engineer
-    </p>
-
+<footer class="site-footer">
+  <div class="wrap foot">
+    <p>&copy; <span id="year">2026</span> Hagilaash Muthuraj · PHP Backend Developer</p>
+    <a href="#home">Back to top</a>
+  </div>
 </footer>
-```
-
+<a class="to-top" id="toTop" href="#home" aria-label="Back to top">↑</a>
+<script src="script.js"></script>
 </body>
-
 </html>
